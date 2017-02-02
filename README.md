@@ -10,7 +10,7 @@ POST https://expressbatchproxy.herokuapp.com/user
   payload: 
     {"username" : "jsmith",  "first_name" : "John", "last_name" : "Smith"}
   
-2. Run the batch job - get user:
+2. Run the batch job - get the first 4 user:
 
 POST http://expressbatchproxy.herokuapp.com/batch
   payload: 
